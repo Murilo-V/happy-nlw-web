@@ -1,0 +1,100 @@
+#page-landing {
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#page-landing .content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  height: 100%;
+  max-height: 680px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../../images/landing.svg") no-repeat 80% center;
+}
+
+#page-landing .content-wrapper main {
+  max-width: 350px;
+}
+
+#page-landing .content-wrapper main h1 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 68px;
+}
+
+#page-landing .content-wrapper main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+#page-landing .content-wrapper .location {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#page-landing .content-wrapper .location strong {
+  font-weight: 800;
+}
+
+#page-landing .content-wrapper .enter-app {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80px;
+  height: 80px;
+  background-color: #ffd666;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+}
+
+#page-landing .content-wrapper .enter-app:hover {
+  background-color: #96feff;
+}
+/*# sourceMappingURL=landing.css.map */

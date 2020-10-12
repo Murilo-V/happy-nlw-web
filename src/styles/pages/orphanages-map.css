@@ -1,0 +1,84 @@
+#page-map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#page-map aside {
+  width: 440px;
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+  padding: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page-map aside h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 42px;
+  margin-top: 64px;
+}
+
+#page-map aside p {
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+#page-map aside footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 24px;
+}
+
+#page-map aside footer strong {
+  font-weight: 800;
+}
+
+#page-map .create-orphanage {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 64px;
+  height: 64px;
+  background-color: #15c3d6;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  z-index: 10;
+}
+
+#page-map .create-orphanage:hover {
+  background-color: #17d6eb;
+}
+
+#page-map .leaflet-container {
+  z-index: 5;
+}
+/*# sourceMappingURL=orphanages-map.css.map */
