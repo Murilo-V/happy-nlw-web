@@ -81,4 +81,49 @@
 #page-map .leaflet-container {
   z-index: 5;
 }
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#page-map .map-popup .leaflet-popup-content {
+  color: #0089a5;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-content a {
+  width: 40px;
+  height: 40px;
+  background: #15c3d6;
+  -webkit-box-shadow: 17.2868px 27.6589 41.4884 rgba(23, 142, 166, 0.16);
+          box-shadow: 17.2868px 27.6589 41.4884 rgba(23, 142, 166, 0.16);
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+  display: none;
+}
 /*# sourceMappingURL=orphanages-map.css.map */
